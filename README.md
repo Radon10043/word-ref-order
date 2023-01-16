@@ -1,4 +1,4 @@
-# WORD-REF-ARRANGE
+# WORD-REF-REARRANGE
 
 根据交叉引用的出现顺序调整MS-Word中参考文献的顺序
 
