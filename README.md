@@ -13,7 +13,7 @@
 然后, 输入以下命令, 对参考文献进行重新排序:
 
 ```
-python -m main.docx -r ref.docx
+python ./rearrange.py -m main.docx -r ref.docx
 ```
 
 重新排序后的参考文献将输出到`ref_new.docx`中, 可利用word的比较功能查看不同, 并调整参考文献的顺序:
