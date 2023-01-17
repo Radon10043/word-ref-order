@@ -2,7 +2,7 @@
 Author: Radon
 Date: 2023-01-16 15:48:19
 LastEditors: Radon
-LastEditTime: 2023-01-16 18:39:27
+LastEditTime: 2023-01-17 09:57:44
 Description: Hi, say something
 '''
 import docx
@@ -33,12 +33,12 @@ def check_valid(main_file: str, ref_file: str) -> bool:
     -----
     _description_
     """
-    if not os.path.exists(ref_file):
-        print("正文文件" + ref_file + "不存在!")
+    if not os.path.exists(main_file):
+        print("正文文件" + main_file + "不存在!")
         return False
 
-    if not os.path.exists(main_file):
-        print("参考文献文件" + main_file + "不存在!")
+    if not os.path.exists(ref_file):
+        print("参考文献文件" + ref_file + "不存在!")
         return False
 
     if os.path.splitext(main_file)[-1] != ".docx":
